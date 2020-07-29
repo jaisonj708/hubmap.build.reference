@@ -24,10 +24,9 @@ Builds HuBMAP references from .h5ad files
    Example command (run in download directory): ` ./prune.R --files $(pwd)/data/ed8a4dbbb1554a5e3227d6dfb2368828.h5ad,$(pwd)/data/7fd04d1aba61c35843dd2eb6a19d2545.h5ad --i ed8a4,7fd04 --annotations $(pwd)/misc/annotations.txt --o $(pwd)/output`
  
  ## Usage
- 
-```prepare_integrated.R: Prepare integrated HuBMAP object.
+ 1. **`prepare_integrated.R: Prepare integrated HuBMAP object.`**
 
-Usage:
+```Usage:
   prepare_integrated.R [--files <h5ad-files> --i <ids> --ensembl <path-to-ensembl-file> --markers <path-to-markers-file> --o <output-directory> --verbose <verbosity>]
 
 Options:
@@ -36,12 +35,12 @@ Options:
   --ensembl <path-to-ensembl-file>    Absolute path to file with ensemble ID dataframe.
   --markers <path-to-markers-file>    Absolute path to file with cell type markers.
   --o <output-directory>              Output directory.
-  --verbose <verbosity>               Verbosity [default: TRUE].```
+  --verbose <verbosity>               Verbosity [default: TRUE].
+  ```
 
+ 1. **`prune.R: Annotate and prune integrated HuBMAP object.`**
 
-```prune.R: Annotate and prune integrated HuBMAP object.
-
-Usage:
+```Usage:
   
   prune.R [--files <h5ad-files> --i <ids> --annotations <path-to-annotation-file> --o <output-directory> --verbose <verbosity> --threshold <threshold> --nsample <nsample>]
 
@@ -52,4 +51,5 @@ Options:
   --o <output-directory>                      Output directory.
   --threshold <threshold>                     Threshold for pruning [default: 0.75].
   --nsample <nsample>                         Number of subsamples for pre- and post-pruned objects [default: 3].
-  --verbose <verbosity>                       Verbosity [default: TRUE].```
+  --verbose <verbosity>                       Verbosity [default: TRUE].
+  ```
