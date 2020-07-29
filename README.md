@@ -23,10 +23,11 @@ Builds HuBMAP references from .h5ad files
 
    Example command (run in download directory): ` ./prune.R --files $(pwd)/data/ed8a4dbbb1554a5e3227d6dfb2368828.h5ad,$(pwd)/data/7fd04d1aba61c35843dd2eb6a19d2545.h5ad --i ed8a4,7fd04 --annotations $(pwd)/misc/annotations.txt --o $(pwd)/output`
  
- ## Usage
+ ## Documentation
  1. **`prepare_integrated.R: Prepare integrated HuBMAP object.`**
 
-```Usage:
+```
+Usage:
   prepare_integrated.R [--files <h5ad-files> --i <ids> --ensembl <path-to-ensembl-file> --markers <path-to-markers-file> --o <output-directory> --verbose <verbosity>]
 
 Options:
@@ -38,9 +39,10 @@ Options:
   --verbose <verbosity>               Verbosity [default: TRUE].
   ```
 
- 1. **`prune.R: Annotate and prune integrated HuBMAP object.`**
+ 2. **`prune.R: Annotate and prune integrated HuBMAP object.`**
 
-```Usage:
+```
+Usage:
   
   prune.R [--files <h5ad-files> --i <ids> --annotations <path-to-annotation-file> --o <output-directory> --verbose <verbosity> --threshold <threshold> --nsample <nsample>]
 
