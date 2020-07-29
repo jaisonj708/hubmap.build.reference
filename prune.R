@@ -1,7 +1,6 @@
 #!/usr/bin/env Rscript
 
 # sample cmd
-# ./prune.R --files /home/jainj/data/spleen/ed8a4dbbb1554a5e3227d6dfb2368828/cluster_marker_genes.h5ad,/home/jainj/data/spleen/7fd04d1aba61c35843dd2eb6a19d2545/cluster_marker_genes.h5ad --i ed8a4,7fd04 --annotations /home/jainj/hubmap/annotations.txt --o /home/jainj/hubmap/out  
 # inside downloaded dir...
 # ./prune.R --files $(pwd)/data/ed8a4dbbb1554a5e3227d6dfb2368828.h5ad,$(pwd)/data/7fd04d1aba61c35843dd2eb6a19d2545.h5ad --i ed8a4,7fd04 --annotations $(pwd)/misc/annotations.txt --o $(pwd)/output  
 
