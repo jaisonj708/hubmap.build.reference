@@ -1,7 +1,7 @@
 # hubmap.build.reference
 
 Builds HuBMAP references from .h5ad files
-## Dummy Workflow
+## Example Workflow
 
 1. **Add cell type markers of interest to a file (e.g, modify `misc/markers.txt`).**
 
